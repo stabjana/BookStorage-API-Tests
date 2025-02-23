@@ -1,0 +1,82 @@
+[
+    {
+      "ID": 1,
+      "bookname": "Rebellion of Sophie Q. Lister",
+      "writer": "Antony Lee",
+      "price": 25,
+      "publisher": "Leila Hökki & co",
+      "keywords": [
+        "mystery",
+        "databases",
+        "History"
+      ],
+      "details": {
+        "notes": "first folio",
+        "booktype": "softcover",
+        "edition": "third edition"
+      }
+    },
+    {
+      "ID": 2,
+      "bookname": "NoSql - New Hope",
+      "writer": "Emily White",
+      "price": 300,
+      "publisher": "Antony Lee publishing",
+      "keywords": [
+        "Computers",
+        "Gaming",
+        "Future SQL"
+      ],
+      "details": {
+        "notes": "no comments",
+        "booktype": "e-book",
+        "edition": "sixth edition"
+      }
+    },
+    {
+      "ID": 3,
+      "bookname": "Databases - The rise and fall",
+      "writer": "Antony Lee",
+      "price": 200,
+      "publisher": "Lion books",
+      "keywords": [
+        "Computers",
+        "Future SQL",
+        "inventions"
+      ],
+      "details": {
+        "notes": "-",
+        "booktype": "hardcover",
+        "edition": "second edition"
+      }
+    },
+    {
+      "ID": 4,
+      "bookname": "Hacking databases",
+      "writer": "Emily White",
+      "price": 10,
+      "publisher": "Leila Hökki & co",
+      "keywords": [
+        "mystery",
+        "Gaming",
+        "inventions"
+      ],
+      "details": {
+        "notes": "collectors edition",
+        "booktype": "softcover",
+        "edition": "third edition"
+      }
+    },
+    {
+      "ID": 5,
+      "bookname": "The adventures of Mike the Millipede",
+      "writer": "Felix Harris",
+      "price": 10,
+      "publisher": "Lion books",
+      "keywords": [
+        "databases",
+        "Future SQL",
+        "inventions"
+      ]
+    }
+  ]
