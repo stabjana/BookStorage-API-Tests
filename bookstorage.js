@@ -25,6 +25,9 @@ module.exports = class BookStorage {
         if (!id) {
             throw new Error("missing parameter");
         }
+        if (typeof id !== 'number') {
+            throw new Error("invalid ID");
+        }
 
         const book = this.#books.find(book => book.ID === id);
         if (!book) {
@@ -43,7 +46,12 @@ module.exports = class BookStorage {
         if (booksByWriter.length === 0) {
             throw new Error("nothing found with given searchValue");
         }
-        return booksByWriter.reduce((total, book) => total + book.price, 0);
+        const totalPrice = booksByWriter.reduce((total, book) => total + book.price, 0);
+        if (totalPrice) {
+            return totalPrice;
+        } else {
+            return 0;
+        }
     }
 
     get_publisher_of_book_by_bookname(searchKey) {
@@ -52,7 +60,7 @@ module.exports = class BookStorage {
         }
 
         const book = this.#books.find(book => book.bookname === searchKey);
-        if (book) {
+        if (book && book.publisher) {
             return book.publisher;
         } else {
             return null;

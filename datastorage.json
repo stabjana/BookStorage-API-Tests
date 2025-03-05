@@ -78,5 +78,13 @@
         "Future SQL",
         "inventions"
       ]
+    },
+    {
+      "ID": 6,
+      "bookname": "The adventures of Mike the Millipede",
+      "writer": "Felix Harris",
+      "price": 30,
+      "publisher": "Lion books",
+      "keywords":[]
     }
   ]
